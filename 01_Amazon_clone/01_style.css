@@ -1,28 +1,77 @@
 * {
   margin: 0;
   font-family: Arial;
-  border: border-box;
+  border: border-box; /** so that the size we set for the element includes its padding and border **/
 }
 
+
+ /** -------------------NAVBAR-----------START--------------------- **/
 .navbar {
   height: 60px;
   background-color: #0f1111;
   color: white;
-  display: flex;
+  display: flex; /** to align items in same line in that particular div**/
+  align-items: center;
 }
+
+/** ------box 1------ **/
 .nav-logo {
   height: 55px;
   width: 130px;
 }
+
 .logo {
   background-image: url("amazon_logo.png");
   background-size: cover;
   height: 70px;
   width: 130px;
 }
-.border{
-    border: 2px solid transparent;
+
+.border {
+  border: 2px solid transparent;
 }
-.border:hover{
-    border: 1.5px solid white;
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/** -----box 2----- **/
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem; /** it simply means 0.85 of the default font **/
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/** -----box 3----- **/
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+  width: 600px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input{
+  width: 100%; /**so that all other area rather than dropdown select and search icon will be occupied by search input **/
 }
