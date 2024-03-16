@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Flag</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .flag {
+            width: 30px; /* Adjust flag width */
+            height: 20px; /* Adjust flag height */
+            background-color: #ffffff;
+            position: relative;
+        }
+        .stripe {
+            height: calc(100% / 13);
+            width: 100%;
+        }
+        .red {
+            background-color: #b22234;
+        }
+        .white {
+            background-color: #ffffff;
+        }
+        .blue {
+            background-color: #3c3b6e;
+            position: absolute;
+            width: 40%;
+            height: 30%;
+            top: 0;
+            left: 0;
+        }
+        .star {
+            color: #ffffff;
+            position: absolute;
+            font-size: 1px; /* Adjust star size */
+            top: 10%; /* Adjust star position */
+            left: 10%; /* Adjust star position */
+        }
+        .font1{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="font1">.</h1>
+    <div class="flag">
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="stripe white"></div>
+        <div class="stripe red"></div>
+        <div class="blue">
+            <i class="fas fa-star star"></i>
+            <i class="fas fa-star star" style="top: 30%; left: 25%;"></i>
+            <i class="fas fa-star star" style="top: 50%; left: 50%;"></i>
+            <i class="fas fa-star star" style="top: 10%; left: 50%;"></i>
+            <i class="fas fa-star star" style="top: 30%; left: 75%;"></i>
+            <!-- Adjust star positions as needed -->
+        </div>
+    </div>
+</body>
+</html>

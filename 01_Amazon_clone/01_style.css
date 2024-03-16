@@ -12,6 +12,7 @@
   color: white;
   display: flex; /** to align items in same line in that particular div**/
   align-items: center;
+  justify-content: space-evenly;
 }
 
 /** ------box 1------ **/
@@ -41,6 +42,7 @@
   font-size: 0.85rem; /** it simply means 0.85 of the default font **/
   margin-left: 15px;
   margin-top: 5px;
+  margin-right: 6px;
 }
 
 .add-second {
@@ -57,7 +59,7 @@
 .nav-search{
   display: flex;
   justify-content: space-evenly;
-  background-color: red;
+  background-color: #ffae44;
   width: 600px;
   height: 40px;
   border-radius: 4px;
@@ -74,4 +76,21 @@
 
 .search-input{
   width: 100%; /**so that all other area rather than dropdown select and search icon will be occupied by search input **/
+font-size: 1rem;
+border: none;
+}
+
+.search-icon{
+  width: 45px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.2rem;
+ border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.nav-lang{
+  display: flex;
 }
