@@ -5,7 +5,7 @@
 }
 
 
- /** -------------------NAVBAR-----------START--------------------- **/
+ /**----------------------NAVBAR----STARTING-------------------------**/
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -18,6 +18,7 @@
 /**border**/
 .border {
   border: 2px solid transparent;
+  
 }
 
 .border:hover {
@@ -115,7 +116,7 @@ font-size: 1.5rem;
   font-weight: 600;
 }
 
-/**-----box 4-----**/
+/**-----box 4 & box 5-----**/
 span{
   font-size: 0.7rem;
 }
@@ -124,3 +125,42 @@ span{
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+/**box 6**/
+.nav-cart i{/** here i refers to all the icons in nav-cart class**/
+  font-size: 30px;
+}
+
+.nav-cart{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/**----------------------NAVBAR----ENDING-------------------------**/
+
+/**----------------------PANEL----STARTING-------------------------**/
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-options p{
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-options{
+  width: 70%;
+  font-size: 0.85rem;
+}
+
+.panel-deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+/**----------------------PANEL----ENDING-------------------------**/
+
+/**----------------HERO--SECTION----STARTING---------------------**/
