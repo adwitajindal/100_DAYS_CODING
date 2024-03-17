@@ -220,3 +220,22 @@ span {
 }
 
 /**----------------------FOOTER--STARTING------------------------**/
+.foot-panel1{
+  background-color: #374758 ;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.foot-panel2{
+  background-color: #222f3d;
+  color: white;
+}
+
+.foot-panel2 a{
+  display: block;
+  color: white;
+}
