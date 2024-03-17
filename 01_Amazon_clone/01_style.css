@@ -164,3 +164,8 @@ span{
 /**----------------------PANEL----ENDING-------------------------**/
 
 /**----------------HERO--SECTION----STARTING---------------------**/
+.hero-section{
+  background-image: url("hero_image.jpg");
+  height: 600px;
+  background-size: cover;
+}
