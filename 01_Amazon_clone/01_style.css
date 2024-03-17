@@ -15,6 +15,15 @@
   justify-content: space-evenly;
 }
 
+/**border**/
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
 /** ------box 1------ **/
 .nav-logo {
   height: 55px;
@@ -26,14 +35,6 @@
   background-size: cover;
   height: 70px;
   width: 130px;
-}
-
-.border {
-  border: 2px solid transparent;
-}
-
-.border:hover {
-  border: 1.5px solid white;
 }
 
 /** -----box 2----- **/
@@ -65,13 +66,21 @@
   border-radius: 4px;
 }
 
+.nav-search:hover{
+  border: 2px solid orange;
+}
+
 .search-select{
   background-color: #f3f3f3;
-  width: 50px;
+  width:50px;
   text-align: center;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+  color: #605b5b;
+  font-size: 0.90rem;
+  font-weight: 500;
+  
 }
 
 .search-input{
@@ -93,4 +102,25 @@ border: none;
 
 .nav-lang{
   display: flex;
+}
+
+.lang-logo{
+font-size: 1.5rem;
+}
+
+.lang-select{
+  border: none;
+  background-color: #0f1111;
+  color: #f3f3f3;
+  font-weight: 600;
+}
+
+/**-----box 4-----**/
+span{
+  font-size: 0.7rem;
+}
+
+.nav-second{
+  font-size: 0.85rem;
+  font-weight: 700;
 }
