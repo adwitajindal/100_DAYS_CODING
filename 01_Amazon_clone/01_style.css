@@ -230,7 +230,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .foot-panel2 {
@@ -278,3 +279,5 @@ ul a {
 .copyright {
   padding-top: 5px;
 }
+
+/**----------------------FOOTER--ENDING------------------------**/
